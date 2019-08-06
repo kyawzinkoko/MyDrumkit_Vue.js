@@ -1,0 +1,77 @@
+#app{
+    margin-top: 200px;
+    margin-left: 450px;
+}
+.btn-click1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    border: none;
+    box-shadow: 3px 1px;
+}
+*:focus{
+    outline: none !important;
+}
+.btn-click2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#ff0000;
+    border: none;
+    box-shadow: 3px 1px;
+
+}
+.btn-click3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(240, 217, 13);
+    border:none;
+    box-shadow: 3px 1px;
+
+}
+.btn-click4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(75, 135, 204);
+    border:none;
+    box-shadow: 3px 1px;
+}
+.btn-click4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(8, 253, 29);
+    border:none;
+    box-shadow: 3px 1px;
+}
+.btn-click5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(243, 152, 7);
+    border:none;
+    box-shadow: 3px 1px;
+}
+.btn-click1:hover{
+    background-color: gray;
+
+}
+.btn-click2:hover{
+    background-color: gray;
+    
+}
+.btn-click3:hover{
+    background-color: gray;
+    
+}
+.btn-click4:hover{
+    background-color: gray;
+    
+}
+.btn-click5:hover{
+    background-color: gray;
+    
+}

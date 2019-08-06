@@ -1,0 +1,23 @@
+#app{
+    margin-top: 200px;
+    margin-left:300px;
+}
+*:focus{
+    outline: none !important;
+}
+img{
+    width: 150px;
+}
+.title{
+    margin-right: 50px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-family: cursive;
+     
+}
+.footer{
+    margin-left:600px;
+    margin-top:80px;
+    font-family: cursive;
+    font-size: 20px;
+}

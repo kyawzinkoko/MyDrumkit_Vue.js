@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+             My Drum Kit
+        </title>
+        <link href="app.css" rel="stylesheet"/>
+        <script src="https://unpkg.com/vue"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        
+        <div id="app">
+            <h1 class="title">My Drum kit</h1>
+            <img src="img/drum3.png"  @click.prevent="playSound1('mp3/zapsplat_cartoon_bounce_drum_like_rising_tail_001_28915.mp3')"/>
+            <img src="img/drum2.png"  @click.prevent="playSound2('mp3/606-cymbal3.wav')"/>
+            <img src="img/drum1.png" @click.prevent="playSound3('mp3/ftus_impacts_metal_drum_thin_light_resonate_006_655.mp3')"/>
+            <img src="img/cymbal.png"  @click.prevent="playSound4('mp3/606-cymbal5.wav')"/>
+            <img src="img/drumstick.png" @click.prevent="playSound5('mp3/zapsplat_household_clothes_dryer_top_loader_lid_down_inside_drum_perspective_10677.mp3')"/>
+            
+  
+        </div>
+        
+        <script src="app.js"></script>
+        <p class="footer">© 2019 Copyright Kyaw Zinn KoKo All rights reserved.</p>
+    </body>
+   
+</html
